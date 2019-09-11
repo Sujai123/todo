@@ -1,0 +1,27 @@
+.items{
+    border:1px solid black;
+    width:350px;
+}
+.strike{
+    text-decoration: line-through
+}
+.taskinput{
+    border:none;
+    outline:none;
+    font-size: 20px
+    
+}
+.flex{
+    display: flex;
+    justify-content: center
+}
+.checkboxStyle{
+    border-radius: 100%
+}
+.button{
+    border: none;
+    background-color: none
+}
+.clearCompleted{
+    cursor: pointer;
+}
