@@ -29,6 +29,7 @@ function Completed(props) {
 
     return (
         <div className='flex'>
+            <div>
             {(props.tasks)?props.tasks.map((task,i)=>{
                 return  <div key={i}>
                         {(task.isCompleted)?
@@ -43,6 +44,7 @@ function Completed(props) {
                         :null}
                         </div>
             }):null}
+            </div>
         </div>
     )
 }
