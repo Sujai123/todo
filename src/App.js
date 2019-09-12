@@ -56,7 +56,7 @@ function App() {
             <div>Not Found</div>
           </Route>
         </Switch>
-        {(updatedTask.length)?<Footer tasks={updatedTask} updater={taskUpdater} />:null}
+        {(updatedTask&&updatedTask.length)?<Footer tasks={updatedTask} updater={taskUpdater} />:null}
       </Router>
     </div>
   );

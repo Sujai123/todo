@@ -26,7 +26,8 @@ function SearchBar(props) {
     return (
         <div className='flex'>
         <div style={{'border':'2px solid black'}} className='items'>
-            {(JSON.parse(localStorage.getItem('temp')).length)?<button 
+            {(JSON.parse(localStorage.getItem('temp'))&&JSON.parse(localStorage.getItem('temp')).length)?
+            <button 
             onClick={setAllCompleted}
             style={{'marginLeft':'-20px'}}>></button>:null}
             <input 
